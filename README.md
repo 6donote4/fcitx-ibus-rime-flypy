@@ -1,14 +1,10 @@
-# fcitx|ibus-rime-flypy
+# fcitx/ibus-rime-flypy
 
-![build](https://img.shields.io/badge/build-passing-brightgreen)
-![docs](https://img.shields.io/badge/docs-100%25-green)
+fcitx/ibus-rime 的小鹤音形挂接文件。
 
-fcitx|ibus-rime 的小鹤音形挂接文件。
-
-虽然小鹤音形官方提供了适用于 Linux 的 Rime 挂接文件，
-但是挂接文件并没有遵守 Linux 约定俗成的配置风格
-(可见官方论坛中的 [这个讨论](https://flypy.com/bbs/forum.php?mod=viewthread&tid=400&extra=page%3D1))，
-故产生了这个倉庫。
+虽然小鹤音形官方提供了适用于 Linux 的 Rime 挂接文件，但是
+挂接文件并没有遵守 Linux 约定俗成的配置风格 (可见官方论坛
+中的 [这个讨论] 故产生了这个倉庫。
 
 ## 调整/特性
 
@@ -34,3 +30,7 @@ fcitx|ibus-rime 的小鹤音形挂接文件。
     + ibus-rime
         + 複製 rime 文件夾下所有的文件到 ``$HOME/.config/ibus/rime/`` 目錄下
 +  重新運行 fcitx / ibus 程序
+
+
+
+[这个讨论]: https://flypy.com/bbs/forum.php?mod=viewthread&tid=400&extra=page%3D1
