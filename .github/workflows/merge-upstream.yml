@@ -35,7 +35,7 @@ jobs:
         git config --global user.name "6donote4"
 
     - name: Load upstream commits
-      run: git pull  https://github.com/Bash-it/bash-it.git --no-edit --strategy-option ours
+      run: git pull  https://github.com/Cool-Pan/fcitx-ibus-rime-flypy.git --no-edit --strategy-option ours
 
     - name: Push Commits
       env:
