@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #
-# 恢复小鹤音形的 Rime 的配置文件 (Restore configuration file)
+# 为 fcitx-rime (fcitx4) 布署小鹤音形的 配置文件 (Restore configuration file)
 #
 
 # 结束 fcitx 进程

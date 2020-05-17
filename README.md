@@ -6,6 +6,8 @@ fcitx/ibus-rime 的小鹤音形挂接文件。
 挂接文件并没有遵守 Linux 约定俗成的配置风格 (可见官方论坛
 中的 [这个讨论] 故产生了这个倉庫。
 
+[这个讨论]: https://flypy.com/bbs/forum.php?mod=viewthread&tid=400&extra=page%3D1
+
 ## 调整/特性
 
 + 调整默认方案为 flypyplus
@@ -27,10 +29,8 @@ fcitx/ibus-rime 的小鹤音形挂接文件。
     + fcitx-rime
         + 可使用自動部署腳本，運行 ``bash Deploy.sh`` 命令即可
         + 複製 rime 文件夾下所有的文件到 ``$HOME/.config/fcitx/rime/`` 目錄下
+    + fcitx5-rime
+        + 複製 rime 文件夾下所有的文件到 ``$HOME/.local/share/fcitx/rime/`` 目錄下
     + ibus-rime
         + 複製 rime 文件夾下所有的文件到 ``$HOME/.config/ibus/rime/`` 目錄下
 +  重新運行 fcitx / ibus 程序
-
-
-
-[这个讨论]: https://flypy.com/bbs/forum.php?mod=viewthread&tid=400&extra=page%3D1
